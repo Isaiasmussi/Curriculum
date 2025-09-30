@@ -1,7 +1,5 @@
 import { Github, Linkedin, Mail, User, FolderKanban, GraduationCap, Award, Languages, Lightbulb } from 'lucide-react';
 
-// --- Componentes ---
-
 const ProgressBar = ({ title, percentage }: { title: string, percentage: number }) => (
   <div>
     <div className="flex justify-between items-center mb-1">
